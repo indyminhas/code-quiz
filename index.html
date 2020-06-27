@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="container">
+    <header>
+        <div class="row justify-content-center">
+            <div class="col-sm-6 d-flex justify-content-start">
+                <p id="scoreEl">Your Score: 0</p>
+            </div>
+            <div class="col-sm-6 d-flex justify-content-end">
+                <p id="timerEl">Time Left: 60</p>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row justify-content-center">
+            <div class="col-sm-6">
+                <h1 id="questionNumEl">Code Quiz!</h1>
+            </div>
+        </div>
+    </header>
+    <br>
+    <main>
+        <div class="row mainsec">
+            <h2 class="col-md-6 d-flex align-items-center justify-content-md-end justify-content-center" id="questionEl">The Rules</h2>
+            
+            <ul class="col-md-6" id="rulesEl">
+                <li>This is a timed quiz on basic coding</li> 
+                <li>There are 5 multiple choice questions that are randomized</li>
+                <li>For every incorrect question, you lose time.</li>
+            </ul>
+
+            <ul class="col-md-6" id="choicesEl">
+                <div class="form-check" id="radio1">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="Radios1" value="option1">
+                    <label class="form-check-label" for="exampleRadios1" id="choice1">
+                    
+                    </label>
+                </div>
+                <div class="form-check" id="radio2">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="Radios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2" id="choice2">
+                        
+                    </label>
+                </div>
+                <div class="form-check" id="radio3">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="Radios3" value="option3">
+                    <label class="form-check-label" for="exampleRadios3" id="choice3">
+                        
+                    </label>
+                </div>
+                <div class="form-check" id="radio4">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="Radios4" value="option4">
+                    <label class="form-check-label" for="exampleRadios4" id="choice4">
+                        
+                    </label>
+                </div>
+            </ul>
+        </div>
+        
+        <br>
+
+        <div class="row justify-content-center" id="startBtn">
+            <button class="col-4">Start Quiz</button>
+        </div>
+        <div class="row justify-content-center" id="submitBtn">
+            <button class="col-4">Submit</button>
+        </div>
+        <div class="row justify-content-center" id="restartBtn">
+            <button onClick = "window.location.reload()" class="col-4" id="restart">Retake Test</button>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-4">
+                <h4 id="timerCountdown"></h4>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer>
+        
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>   
+    <script src="script.js"></script>
+</body>
+</html>

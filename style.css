@@ -1,24 +1,65 @@
-
-body{
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #333;
+body {
+    
+    background-color: salmon;
+    
 }
 
-.question{
-    font-weight: 550;
+header {
+    text-align: center;
 }
 
-.answers {
-    margin-bottom: 20px;
+#scoreEl {
+    color: #243155
 }
 
-#submit {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    background-color: burlywood;
-    color: cadetblue;
-    border: coral;
-    border-radius: 3px;
-    padding: 20px;
+#timerEl {
+    color: #243155
+}
+
+#questionNumEl {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-emphasis: bold;
+    color:#243155;
+    text-shadow: 1px 1px 4px grey;
+}
+
+
+#questionEl {
+    padding-right: 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-shadow: 1px 1px 4px black;
+}
+
+.topThree, #rulesEl {
+    padding-left: 50px;
+}
+
+.youreFirst {
+    color: black;
+    text-shadow: 1px 1px 4px black;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-right: 50px;
+}
+
+li {
+    color: black;
+    text-shadow: 1px 1px 4px black;
+}
+
+label {
+    color: white;
+    text-shadow: 1px 1px 4px black;
+}
+
+button {
+    background-color: white;
+}
+
+#timerCountdown {
+    text-align: center;
+    color: #243155;
 }

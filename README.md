@@ -1,13 +1,7 @@
 # code-quiz
 hw 4
-        // we'll need a place to store the output and the answer choices
 
-        // add this question and its answers to the output
-    // combine output list into one string of html
-        //collect answer containers from our quiz
-        // keep track of user's answer
-        // show the number of correct answers out of total
-    //show the question
-    // when user clicks submit, show results
-        // on submit, show results
-    //create the question
+This is a timed quiz with the objective being to answer as many questions correctly and as quickly as possible.
+
+Once the user chooses to begin the quiz, they will have 60 seconds to answer 5 questions that are randomized from a list. 
+The quiz will end once the user has either answered all the questions or has run out of time. The user will also have the option to enter their name into a textarea to be entered into local storage, along with their score.
